@@ -1,13 +1,14 @@
-Passo-a-passo da Fase 1:
+Passo-a-passo da Fase 2:
 
-- Criar um diretório
-$ mkdir monitoria-messi
+- Adicionar repositório remoto
+$ git remote add repo https://github.com/[URL]
 
-- Inicializar um diretório Git
-$ git init
+ou
 
-- Criar um arquivo
-$ vim README.md
+$ git clone https://github.com/[URL]
+
+- Modificar arquivo existente
+$ notepad README.md
 
 - Verificar status
 $ git status
@@ -18,8 +19,11 @@ $ git add README.md
 - Verificar status
 $ git status
 
-- Commitar arquivo
-$ git commit -m 'meu primeiro commit'
+- Commitar mudanças
+$ git commit -m 'adiciona informações sobre autor'
 
-- Verificar log
-$ git log
+- Verificar status
+$ git status
+
+- Enviar para repositório remoto
+$ git push origin master
