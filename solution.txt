@@ -1,0 +1,25 @@
+Passo-a-passo da Fase 1:
+
+- Criar um diretório
+$ mkdir monitoria-messi
+
+- Inicializar um diretório Git
+$ git init
+
+- Criar um arquivo
+$ vim README.md
+
+- Verificar status
+$ git status
+
+- Adicionar ao repositório
+$ git add README.md
+
+- Verificar status
+$ git status
+
+- Commitar arquivo
+$ git commit -m 'meu primeiro commit'
+
+- Verificar log
+$ git log
