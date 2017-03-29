@@ -1,11 +1,28 @@
-Passo-a-passo da Fase 2:
+Passo-a-passo da Fase 3:
 
-- Adicionar repositório remoto
-$ git remote add repo https://github.com/[URL]
+- Criar um ramo a partir do ramo principal
+$ git checkout -b fase3
 
-ou
+- Criar novo arquivo
+$ notepad monitoria.txt
 
-$ git clone https://github.com/[URL]
+- Verificar status
+$ git status
+
+- Adicionar ao repositório
+$ git add monitoria.txt
+
+- Verificar status
+$ git status
+
+- Commitar mudanças
+$ git commit -m 'adiciona arquivo sobre a monitoria'
+
+- Verificar status
+$ git status
+
+- Enviar para repositório remoto
+$ git push origin fase03
 
 - Modificar arquivo existente
 $ notepad README.md
@@ -13,17 +30,11 @@ $ notepad README.md
 - Verificar status
 $ git status
 
-- Adicionar ao repositório
+- Adicionar mudanças
 $ git add README.md
 
-- Verificar status
-$ git status
-
 - Commitar mudanças
-$ git commit -m 'adiciona informações sobre autor'
+$ git commit -m 'adiciona texto sobre contato'
 
-- Verificar status
-$ git status
-
-- Enviar para repositório remoto
-$ git push origin master
+- Juntar com ramo principal
+$ git merge master
